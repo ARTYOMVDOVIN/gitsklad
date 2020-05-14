@@ -1,0 +1,118 @@
+{
+  "products": [
+    {
+      "uuid": "f123",
+      "name": "Товар 1",
+      "type": "category1",
+
+      "rate": 7,
+      "length": "2",
+      "link": "http://www.bstu.ru",
+      "picture": "https://topcompservice.ru/wp-content/uploads/2017/11/Cartred.png",
+      "shippers": ["c123"]
+    },
+    {
+      "uuid": "f234",
+      "name": "Товар 2",
+      "type": "category1",
+
+      "rate": 2,
+      "length": "2",
+      "link": "http://www.bstu.ru",
+      "picture": "https://topcompservice.ru/wp-content/uploads/2017/11/Cartred.png",
+      "shippers": ["c123"]
+    },
+    {
+      "uuid": "f345",
+      "name": "Товар 3",
+      "type": "category1",
+
+      "rate": 9,
+      "length": "2",
+      "link": "http://www.bstu.ru",
+      "picture": "https://topcompservice.ru/wp-content/uploads/2017/11/Cartred.png",
+      "shippers": ["c234"]
+    },
+    {
+      "uuid": "f456",
+      "name": "Товар 4",
+      "type": "category1",
+
+      "rate": 4,
+      "length": "1",
+      "link": "http://www.bstu.ru",
+      "picture": "https://topcompservice.ru/wp-content/uploads/2017/11/Cartred.png",
+      "shippers": ["c234"]
+    },
+    {
+      "uuid": "f567",
+      "name": "Товар 5",
+      "type": "category2",
+
+      "rate": 5,
+      "length": "1",
+      "link": "http://www.bstu.ru",
+      "picture": "https://topcompservice.ru/wp-content/uploads/2017/11/Cartred.png",
+      "shippers": ["c345"]
+    },
+    {
+      "uuid": "f678",
+      "name": "Товар 6",
+      "type": "category2",
+
+      "rate": 8,
+      "length": "2",
+      "link": "http://www.bstu.ru",
+      "picture": "https://topcompservice.ru/wp-content/uploads/2017/11/Cartred.png",
+      "shippers": ["c345"]
+    },
+    {
+      "uuid": "f789",
+      "name": "Товар 7",
+      "type": "category2",
+
+      "rate": 8,
+      "length": "1",
+      "link": "http://www.bstu.ru",
+      "picture": "https://topcompservice.ru/wp-content/uploads/2017/11/Cartred.png",
+      "shippers": ["c456"]
+    },
+    {
+      "uuid": "f890",
+      "name": "Товар 8",
+      "type": "category2",
+
+      "rate": 8,
+      "length": "1",
+      "link": "http://www.bstu.ru",
+      "picture": "https://topcompservice.ru/wp-content/uploads/2017/11/Cartred.png",
+      "shippers": ["c456"]
+    }
+  ],
+  "shippers": [
+    {
+      "uuid": "c123",
+      "name": "Поставщик 1",
+      "url": "http://www.bstu.ru",
+      "products": ["f123", "f234"]
+    },
+    {
+      "uuid": "c234",
+      "name": "Поставщик 2",
+      "url": "http://www.bstu.ru",
+      "products": ["f345", "f456"]
+    },
+    {
+      "uuid": "c345",
+      "name": "Поставщик 3",
+      "url": "http://www.bstu.ru",
+      "products": ["f567", "f678"]
+    },
+    {
+      "uuid": "c456",
+      "name": "Поставщик 4",
+      "url": "http://www.bstu.ru",
+      "products": ["f789", "f890"]
+    }
+  ]
+}

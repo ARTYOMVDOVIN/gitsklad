@@ -1,0 +1,18 @@
+1124332643:AAE9i2S_MioN6uLc3oDqjcBiYmTzVmU7axM
+
+cd Program Files\MongoDB\Server\4.2\bin
+mongo
+show databases
+use dbsklad
+show collections
+db.films.fund({})
+
+      "quantity": 1,
+      "price": "100",
+
+Users\temav\PhpstormProjects\sklad_project
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/ARTYOMVDOVIN/gitsklad.git
+git push -u origin master
